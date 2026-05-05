@@ -25,6 +25,7 @@ This should be treated as a foundation PR rather than a complete product PR. It 
 | `src/editor-store.ts` | Lightweight editor state/actions for shot setup, layer creation, manual keys, auto-key commits, AI patches, and undo/redo. |
 | `src/index.ts` | Public barrel exports for the core modules. |
 | `docs/ae-first-mvp-architecture.md` | Architectural overview and MVP implementation flow. |
+| `docs/ai-agent-app-contract.md` | AI/Codex orchestration flow for resolving saved characters/locations, instantiating layers, generating missing sprites, and applying editable keyframes. |
 | `package.json` / `tsconfig.json` | Minimal TypeScript project scaffolding and typecheck command. |
 
 ## Quickstart

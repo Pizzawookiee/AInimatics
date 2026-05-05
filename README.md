@@ -100,9 +100,3 @@ For the initial pull request, keep the scope limited to these foundational contr
 3. Build a minimal timeline/inspector prototype that calls the editor store actions.
 4. Add Remotion composition generation from `evaluateFrame()` output.
 5. Add Codex/image-generation integration behind patch-based, diffable editor actions.
-
-## AI orchestration
-
-For natural-language prompts such as “make a scene 1280x720 where my uploaded character is sitting in a bar and walks out the door,” the agent should follow the structured contract in `docs/ai-agent-app-contract.md`: query project context, resolve saved assets/locations by role, tags, capabilities, upload provenance, and anchors, instantiate layers through app actions, generate missing variants only when needed, and apply all animation as editable keyframe patches.
-
-For vaguer prompts such as “my character sits in a bar and then walks out the door,” the agent should first expand the request into a reviewable shot plan, infer low-risk defaults, ask for confirmation when identity/location/tone is ambiguous, and then convert each planned shot into the same concrete app operations.
